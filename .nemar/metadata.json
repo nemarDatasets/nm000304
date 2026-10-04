@@ -1,0 +1,107 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Jorge German Perez Blanco": {
+      "orcid": "0000-0002-3631-4269"
+    },
+    "Javier Mauricio Antelis Ortiz": {},
+    "Luis Guillermo Hernandez Rojas": {},
+    "Hector Lizarraga Torreblanca": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-026-07287-z",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.29666735",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000304",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000304",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "PerezBlanco2026",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "1.38 GB (448 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "A BIDS-formatted EEG-EMG dataset from 45 healthy adults performing four-direction wrist pointing movements (flexion, extension, radial deviation, ulnar deviation) with a 3-DoF wrist exoskeleton. It contains 8 channels of EEG over sensorimotor areas and 8 channels of EMG, recorded at 512 Hz over multiple runs of cue-based trials with continuous visual feedback. The dataset supports research on motor control, brain-computer interfaces and biomarkers for neurorehabilitation.",
+  "methods_description": "Recordings used a g.tec g.USBamp amplifier at 512 Hz with 8 EEG channels (10-10 montage, g.GAMMAcap) and 8 EMG channels, referenced to the right ear with AFz as ground. Online filtering was a 0.1-200 Hz bandpass and a 60 Hz notch. Participants performed 8 or more runs of 40 trials each (10 per movement direction) with a wrist exoskeleton, where flexion-extension controlled horizontal cursor motion and radial-ulnar deviation controlled vertical cursor motion. Data were converted from BCI2000 .dat files to EDF in BIDS.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "EMG"
+    },
+    {
+      "term": "motor execution"
+    },
+    {
+      "term": "wrist movement"
+    },
+    {
+      "term": "exoskeleton"
+    },
+    {
+      "term": "neurorehabilitation"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Electromyography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
+    },
+    {
+      "term": "Wrist",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014959"
+    },
+    {
+      "term": "Rehabilitation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012046"
+    }
+  ],
+  "source_hash": "78ded57462e56a032041417a37fd50fcb34413afb52bf1fcc5fbc6046fdb4e2a"
+}
