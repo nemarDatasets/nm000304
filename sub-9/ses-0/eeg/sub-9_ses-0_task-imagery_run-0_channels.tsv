@@ -1,0 +1,9 @@
+name	type	units	low_cutoff	high_cutoff	description	sampling_frequency	status	status_description
+C3	EEG	µV	0.0	599.7001499250375	ElectroEncephaloGram	1199.400299850075	good	n/a
+C1	EEG	µV	0.0	599.7001499250375	ElectroEncephaloGram	1199.400299850075	good	n/a
+Cz	EEG	µV	0.0	599.7001499250375	ElectroEncephaloGram	1199.400299850075	good	n/a
+C2	EEG	µV	0.0	599.7001499250375	ElectroEncephaloGram	1199.400299850075	good	n/a
+C4	EEG	µV	0.0	599.7001499250375	ElectroEncephaloGram	1199.400299850075	good	n/a
+CP3	EEG	µV	0.0	599.7001499250375	ElectroEncephaloGram	1199.400299850075	good	n/a
+CPz	EEG	µV	0.0	599.7001499250375	ElectroEncephaloGram	1199.400299850075	good	n/a
+CP4	EEG	µV	0.0	599.7001499250375	ElectroEncephaloGram	1199.400299850075	good	n/a

@@ -1,0 +1,127 @@
+_dataset:
+  class: PerezBlanco2026
+  code: PerezBlanco2026
+  doi: 10.1038/s41597-026-07287-z
+  interval:
+  - 0
+  - 2.5
+  n_subjects: 45
+  paradigm: imagery
+acquisition:
+  auxiliary_channels:
+    emg_channels: 8
+    has_emg: true
+  cap_manufacturer: g.tec
+  cap_model: g.GAMMAcap
+  channel_types:
+    eeg: 8
+    emg: 8
+  filters:
+    bandpass:
+    - 0.1
+    - 200.0
+    notch: 60.0
+  ground: AFz
+  hardware: g.tec g.USBamp (serial UB-2016.05.01)
+  line_freq: 60.0
+  montage: 10-10
+  reference: right ear
+  sampling_rate: 512.0
+  sensors:
+  - C3
+  - C1
+  - Cz
+  - C2
+  - C4
+  - CP3
+  - CPz
+  - CP4
+bci_application:
+  applications:
+  - motor_control
+  - rehabilitation
+  environment: laboratory
+  online_feedback: true
+cross_validation:
+  evaluation_type:
+  - within_subject
+data_structure:
+  n_trials: 320
+  n_trials_per_class:
+    extension: 80
+    flexion: 80
+    radial_deviation: 80
+    ulnar_deviation: 80
+  trials_context: 45 subjects x >=8 runs x 40 trials (10 per class per run); the exact run count varies by subject (e.g. 9
+    for sub-01, 10 for sub-02), so per-subject totals exceed this minimum
+documentation:
+  country: MX
+  data_url: https://doi.org/10.6084/m9.figshare.29666735
+  doi: 10.1038/s41597-026-07287-z
+  institution: Tecnologico de Monterrey
+  institution_address: Monterrey, Nuevo Leon, Mexico
+  investigators:
+  - Jorge German Perez Blanco
+  - Javier Mauricio Antelis Ortiz
+  - Luis Guillermo Hernandez Rojas
+  - Hector Lizarraga Torreblanca
+  license: CC-BY-4.0
+  publication_year: 2026
+  repository: Figshare
+experiment:
+  class_labels:
+  - flexion
+  - extension
+  - radial_deviation
+  - ulnar_deviation
+  events:
+    extension: 2
+    flexion: 1
+    radial_deviation: 3
+    ulnar_deviation: 4
+  feedback_type: continuous visual
+  mode: offline
+  n_classes: 4
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual target
+  study_design: 4-direction wrist-pointing task with a 3-DoF wrist exoskeleton (Biomech Wrist). Flexion-extension controls
+    horizontal cursor motion, radial-ulnar deviation controls vertical cursor motion. 8 runs x 40 trials (10 per movement
+    per run).
+  synchronicity: cue-based
+  task_type: motor_execution
+  trial_duration: 10.0
+file_format: EDF (BIDS, converted from BCI2000 .dat)
+paradigm_specific:
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 2.5
+  imagery_tasks:
+  - flexion
+  - extension
+  - radial_deviation
+  - ulnar_deviation
+participants:
+  age_max: 83.0
+  age_mean: 38.5
+  age_min: 20.0
+  age_std: 19.87
+  gender:
+    female: 26
+    male: 19
+  handedness:
+    left: 5
+    right: 40
+  health_status: healthy
+  n_subjects: 45
+  species: human
+runs_per_session: 8
+sessions_per_subject: 1
+tags:
+  modality:
+  - Motor
+  pathology:
+  - Healthy
+  type:
+  - Motor Execution
