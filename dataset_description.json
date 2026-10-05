@@ -38,6 +38,6 @@
     ],
     "PublicationYear": 2026,
     "EthicsApprovals": [
-        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+        "Approved by the Institutional Research Ethics Committee of Tecnologico de Monterrey, approval number PR2024-05v1. The study was conducted in accordance with the Declaration of Helsinki, and written informed consent \u2014 including explicit agreement for open sharing of de-identified data \u2014 was obtained from all participants (Perez-Blanco et al. 2026, Sci. Data, DOI 10.1038/s41597-026-07287-z)."
     ]
 }

@@ -138,3 +138,13 @@ new human-subject data were collected during this BIDS re-release; this
 NEMAR record only reformats the published source data into BIDS via MOABB.
 Please consult the primary publication for the exact IRB/ethics committee
 reference.
+
+## Ethics
+
+Approved by the Institutional Research Ethics Committee of Tecnologico de Monterrey, approval number PR2024-05v1. The study was conducted in accordance with the Declaration of Helsinki, and written informed consent — including explicit agreement for open sharing of de-identified data — was obtained from all participants (Perez-Blanco et al. 2026, Sci. Data, DOI 10.1038/s41597-026-07287-z).
+
+Verbatim from the source:
+
+> The study was conducted in accordance with the Declaration of Helsinki and was approved by the Institutional Research Ethics Committee of Tecnologico de Monterrey (approval number: PR2024-05v1).
+
+Source: cached paper .paper-audit/PerezBlanco2026/paper-10_1038_s41597_026_07287_z.txt (Perez-Blanco et al. 2026, Sci. Data, DOI 10.1038/s41597-026-07287-z).
