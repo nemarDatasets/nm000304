@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "PerezBlanco2026: Wrist-motion (4-direction pointing) motor-execution dataset",
-  "description": "A multimodal dataset of wrist movements recorded from 45 healthy participants performing a 4-direction pointing task (flexion, extension, radial deviation, ulnar deviation) with a 3-DoF wrist rehabilitation exoskeleton. It includes 8-channel EEG over sensorimotor areas and 8-channel EMG, recorded over multiple runs with continuous visual feedback. The dataset supports biomarker research and brain-computer interface development for neurorehabilitation. This BIDS release was produced from the published source data via MOABB.",
-  "methods_description": "EEG and EMG were recorded at 512 Hz with a g.tec g.USBamp (8 EEG channels in a 10-10 montage, 8 EMG channels, right-ear reference, AFz ground, 0.1-200 Hz bandpass, 60 Hz notch). Participants controlled a cursor with a Biomech Wrist exoskeleton: flexion-extension moved it horizontally and radial-ulnar deviation moved it vertically. Each session had at least 8 runs of 40 cue-based trials (10 per movement per run).",
+  "description": "A multimodal dataset of wrist-pointing movements recorded from 45 healthy adults using a 3-DoF wrist exoskeleton. Participants performed four movement directions (flexion, extension, radial deviation, ulnar deviation) that controlled a cursor, while 8 EEG channels over sensorimotor areas and 8 EMG channels were recorded. The dataset is intended for biomarker research, brain-computer interfaces and neurorehabilitation. This BIDS version was converted from the original BCI2000 recordings using MOABB.",
+  "methods_description": "EEG (8 channels, 10-10 montage, g.tec g.GAMMAcap) and EMG (8 channels) were recorded at 512 Hz with a g.tec g.USBamp. The reference was the right ear and the ground was AFz. Online filtering used a 0.1-200 Hz bandpass and a 60 Hz notch. Participants completed at least 8 runs of 40 cue-based trials, 10 per movement direction per run, with continuous visual feedback while operating the Biomech Wrist exoskeleton. Data were converted from BCI2000 .dat to EDF/BIDS.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -40,6 +40,11 @@
       "term": "Electroencephalography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Electromyography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
     }
   ],
   "related_identifiers": [
@@ -89,5 +94,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "b2424550a04fadc028501fec75d5d94c916179b191e75bc7644c1e74dbc84b6a"
+  "source_hash": "614cfeed995c627c4b4d5cc6a773d3450784d9231ae0c2de3aa5c6648650df46"
 }
