@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "PerezBlanco2026: Wrist-motion (4-direction pointing) motor-execution dataset",
+  "description": "A multimodal dataset of wrist movements recorded from 45 healthy participants performing a 4-direction pointing task (flexion, extension, radial deviation, ulnar deviation) with a 3-DoF wrist rehabilitation exoskeleton. It includes 8-channel EEG over sensorimotor areas and 8-channel EMG, recorded over multiple runs with continuous visual feedback. The dataset supports biomarker research and brain-computer interface development for neurorehabilitation. This BIDS release was produced from the published source data via MOABB.",
+  "methods_description": "EEG and EMG were recorded at 512 Hz with a g.tec g.USBamp (8 EEG channels in a 10-10 montage, 8 EMG channels, right-ear reference, AFz ground, 0.1-200 Hz bandpass, 60 Hz notch). Participants controlled a cursor with a Biomech Wrist exoskeleton: flexion-extension moved it horizontally and radial-ulnar deviation moved it vertically. Each session had at least 8 runs of 40 cue-based trials (10 per movement per run).",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Jorge German Perez Blanco": {
       "orcid": "0000-0002-3631-4269"
@@ -9,6 +14,34 @@
     "Luis Guillermo Hernandez Rojas": {},
     "Hector Lizarraga Torreblanca": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "EMG"
+    },
+    {
+      "term": "motor execution"
+    },
+    {
+      "term": "wrist movement"
+    },
+    {
+      "term": "exoskeleton"
+    },
+    {
+      "term": "neurorehabilitation"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1038/s41597-026-07287-z",
@@ -41,14 +74,11 @@
       "relation_type": "References"
     }
   ],
-  "title": "PerezBlanco2026",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "1.38 GB (448 files)"
   ],
@@ -56,52 +86,8 @@
     ".edf",
     ".json",
     ".tsv",
-    ".yaml"
+    ".yaml",
+    ".yml"
   ],
-  "description": "A BIDS-formatted EEG-EMG dataset from 45 healthy adults performing four-direction wrist pointing movements (flexion, extension, radial deviation, ulnar deviation) with a 3-DoF wrist exoskeleton. It contains 8 channels of EEG over sensorimotor areas and 8 channels of EMG, recorded at 512 Hz over multiple runs of cue-based trials with continuous visual feedback. The dataset supports research on motor control, brain-computer interfaces and biomarkers for neurorehabilitation.",
-  "methods_description": "Recordings used a g.tec g.USBamp amplifier at 512 Hz with 8 EEG channels (10-10 montage, g.GAMMAcap) and 8 EMG channels, referenced to the right ear with AFz as ground. Online filtering was a 0.1-200 Hz bandpass and a 60 Hz notch. Participants performed 8 or more runs of 40 trials each (10 per movement direction) with a wrist exoskeleton, where flexion-extension controlled horizontal cursor motion and radial-ulnar deviation controlled vertical cursor motion. Data were converted from BCI2000 .dat files to EDF in BIDS.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "EMG"
-    },
-    {
-      "term": "motor execution"
-    },
-    {
-      "term": "wrist movement"
-    },
-    {
-      "term": "exoskeleton"
-    },
-    {
-      "term": "neurorehabilitation"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "Electromyography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
-    },
-    {
-      "term": "Wrist",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014959"
-    },
-    {
-      "term": "Rehabilitation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012046"
-    }
-  ],
-  "source_hash": "78ded57462e56a032041417a37fd50fcb34413afb52bf1fcc5fbc6046fdb4e2a"
+  "source_hash": "b2424550a04fadc028501fec75d5d94c916179b191e75bc7644c1e74dbc84b6a"
 }
