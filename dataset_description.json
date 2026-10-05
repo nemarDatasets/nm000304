@@ -1,5 +1,5 @@
 {
-    "Name": "PerezBlanco2026",
+    "Name": "PerezBlanco2026: Wrist-motion (4-direction pointing) motor-execution dataset",
     "BIDSVersion": "1.9.0",
     "HEDVersion": "8.4.0",
     "DatasetType": "derivative",
@@ -36,5 +36,8 @@
             "URL": "https://doi.org/10.6084/m9.figshare.29666735"
         }
     ],
-    "PublicationYear": 2026
+    "PublicationYear": 2026,
+    "EthicsApprovals": [
+        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+    ]
 }
