@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "PerezBlanco2026: Wrist-motion (4-direction pointing) motor-execution dataset",
-  "description": "A multimodal dataset of wrist-pointing movements recorded from 45 healthy adults using a 3-DoF wrist exoskeleton. Participants performed four movement directions (flexion, extension, radial deviation, ulnar deviation) that controlled a cursor, while 8 EEG channels over sensorimotor areas and 8 EMG channels were recorded. The dataset is intended for biomarker research, brain-computer interfaces and neurorehabilitation. This BIDS version was converted from the original BCI2000 recordings using MOABB.",
-  "methods_description": "EEG (8 channels, 10-10 montage, g.tec g.GAMMAcap) and EMG (8 channels) were recorded at 512 Hz with a g.tec g.USBamp. The reference was the right ear and the ground was AFz. Online filtering used a 0.1-200 Hz bandpass and a 60 Hz notch. Participants completed at least 8 runs of 40 cue-based trials, 10 per movement direction per run, with continuous visual feedback while operating the Biomech Wrist exoskeleton. Data were converted from BCI2000 .dat to EDF/BIDS.",
+  "description": "A multimodal dataset of simultaneous EEG, EMG and kinematics recorded from 45 healthy adults performing a four-direction wrist-pointing task with a 3-DoF wrist exoskeleton (Biomech Wrist). Participants performed flexion, extension, radial deviation and ulnar deviation movements (motor execution) to control a cursor with continuous visual feedback. The dataset is intended for biomarker research, motor control and neurorehabilitation applications, and is distributed in BIDS format.",
+  "methods_description": "Eight EEG channels over sensorimotor areas (C3, C1, Cz, C2, C4, CP3, CPz, CP4) and eight EMG channels were recorded at 512 Hz with a g.tec g.USBamp, referenced to the right ear with AFz as ground. The paradigm is overt motor execution (not motor imagery). Participants completed at least 8 runs of 40 cue-based trials each (10 per movement direction) using the Biomech Wrist exoskeleton. Flexion-extension controlled horizontal cursor motion and radial-ulnar deviation controlled vertical motion. Data were recorded with BCI2000 and converted to EDF/BIDS.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -32,6 +32,9 @@
     },
     {
       "term": "neurorehabilitation"
+    },
+    {
+      "term": "kinematics"
     },
     {
       "term": "brain-computer interface"
@@ -85,7 +88,7 @@
     "eeg"
   ],
   "sizes": [
-    "1.38 GB (448 files)"
+    "5.31 GB (896 files)"
   ],
   "formats": [
     ".edf",
