@@ -1,43 +1,47 @@
 {
-    "Name": "PerezBlanco2026: Wrist-motion (4-direction pointing) motor-execution dataset",
-    "BIDSVersion": "1.9.0",
-    "HEDVersion": "8.4.0",
-    "DatasetType": "derivative",
-    "License": "CC-BY-4.0",
-    "Authors": [
-        "Jorge German Perez Blanco",
-        "Javier Mauricio Antelis Ortiz",
-        "Luis Guillermo Hernandez Rojas",
-        "Hector Lizarraga Torreblanca"
-    ],
-    "ReferencesAndLinks": [
-        "https://doi.org/10.6084/m9.figshare.29666735"
-    ],
-    "Keywords": [
-        "Healthy",
-        "Motor",
-        "Motor Execution",
-        "imagery",
-        "motor_control",
-        "rehabilitation"
-    ],
-    "DatasetDOI": "doi:10.1038/s41597-026-07287-z",
-    "GeneratedBy": [
-        {
-            "CodeURL": "https://github.com/NeuroTechX/moabb",
-            "Name": "moabb",
-            "Description": "Mother of All BCI Benchmarks",
-            "Version": "1.8.0dev0"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "DOI": "10.1038/s41597-026-07287-z",
-            "URL": "https://doi.org/10.6084/m9.figshare.29666735"
-        }
-    ],
-    "PublicationYear": 2026,
-    "EthicsApprovals": [
-        "Approved by the Institutional Research Ethics Committee of Tecnologico de Monterrey, approval number PR2024-05v1. The study was conducted in accordance with the Declaration of Helsinki, and written informed consent \u2014 including explicit agreement for open sharing of de-identified data \u2014 was obtained from all participants (Perez-Blanco et al. 2026, Sci. Data, DOI 10.1038/s41597-026-07287-z)."
-    ]
+  "Name": "PerezBlanco2026: Wrist-motion (4-direction pointing) motor-execution dataset",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Jorge German Perez Blanco",
+    "Javier Mauricio Antelis Ortiz",
+    "Luis Guillermo Hernandez Rojas",
+    "Hector Lizarraga Torreblanca"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.6084/m9.figshare.29666735"
+  ],
+  "Keywords": [
+    "Healthy",
+    "Motor",
+    "Motor Execution",
+    "imagery",
+    "motor_control",
+    "rehabilitation"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000304",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.8.0dev0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1038/s41597-026-07287-z",
+      "URL": "https://doi.org/10.6084/m9.figshare.29666735"
+    },
+    {
+      "DOI": "doi:10.1038/s41597-026-07287-z"
+    }
+  ],
+  "PublicationYear": 2026,
+  "EthicsApprovals": [
+    "Approved by the Institutional Research Ethics Committee of Tecnologico de Monterrey, approval number PR2024-05v1. The study was conducted in accordance with the Declaration of Helsinki, and written informed consent — including explicit agreement for open sharing of de-identified data — was obtained from all participants (Perez-Blanco et al. 2026, Sci. Data, DOI 10.1038/s41597-026-07287-z)."
+  ],
+  "Version": "1.0.0"
 }
