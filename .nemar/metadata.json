@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "PerezBlanco2026: Wrist-motion (4-direction pointing) motor-execution dataset",
-  "description": "A multimodal dataset of simultaneous EEG, EMG and kinematics recorded from 45 healthy adults performing a four-direction wrist-pointing task with a 3-DoF wrist exoskeleton (Biomech Wrist). Participants performed flexion, extension, radial deviation and ulnar deviation movements (motor execution) to control a cursor with continuous visual feedback. The dataset is intended for biomarker research, motor control and neurorehabilitation applications, and is distributed in BIDS format.",
-  "methods_description": "Eight EEG channels over sensorimotor areas (C3, C1, Cz, C2, C4, CP3, CPz, CP4) and eight EMG channels were recorded at 512 Hz with a g.tec g.USBamp, referenced to the right ear with AFz as ground. The paradigm is overt motor execution (not motor imagery). Participants completed at least 8 runs of 40 cue-based trials each (10 per movement direction) using the Biomech Wrist exoskeleton. Flexion-extension controlled horizontal cursor motion and radial-ulnar deviation controlled vertical motion. Data were recorded with BCI2000 and converted to EDF/BIDS.",
+  "description": "This dataset contains simultaneous EEG and EMG recordings from 45 healthy participants performing a four-direction wrist-pointing task with a 3-DoF wrist exoskeleton. Movements covered flexion, extension, radial deviation and ulnar deviation, with continuous visual feedback and cue-based trials over multiple runs. It supports research on motor control, biomarkers and neurorehabilitation.",
+  "methods_description": "EEG (8 channels, 10-10 montage, g.GAMMAcap) and EMG (8 channels) were recorded at 512 Hz with a g.tec g.USBamp, referenced to the right ear with AFz as ground. Participants performed 4-direction wrist pointing with the Biomech Wrist exoskeleton, with flexion-extension driving horizontal cursor motion and radial-ulnar deviation driving vertical motion. Each session had at least 8 runs of 40 trials (10 per movement). Data were converted from BCI2000 .dat to BIDS EDF.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -34,20 +34,7 @@
       "term": "neurorehabilitation"
     },
     {
-      "term": "kinematics"
-    },
-    {
       "term": "brain-computer interface"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "Electromyography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
     }
   ],
   "related_identifiers": [
@@ -88,14 +75,15 @@
     "eeg"
   ],
   "sizes": [
-    "5.31 GB (896 files)"
+    "15.94 GB (2684 files)"
   ],
   "formats": [
     ".edf",
     ".json",
+    ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "614cfeed995c627c4b4d5cc6a773d3450784d9231ae0c2de3aa5c6648650df46"
+  "source_hash": "e23814a5c4b76e110208ba4f9358e94e264cb58f8b7ff45ca8df6e2608c313c3"
 }
